@@ -1,0 +1,15 @@
+Dia	Pronostico	Temperatura	Temperatura_Maxima	Temperatura_Minima	Humedad	Viento	Juega_Tenis
+D1	Soleado	Calido	25,4	19,5	Alta	Debil	0
+D2	Soleado	Calido	24,1	17,4	Alta	Fuerte	0
+D3	Nublado	Calido	23,7	17,9	Alta	Debil	1
+D4	Lluvioso	Moderado	18,9	14,9	Alta	Debil	1
+D5	Lluvioso	Frio	15,3	9,5	Normal	Debil	1
+D6	Lluvioso	Frio	14	10,9	Normal	Fuerte	0
+D7	Nublado	Frio	21	15,5	Normal	Fuerte	1
+D8	Soleado	Moderado	22,6	17,3	Alta	Debil	0
+D9	Soleado	Frio	20,2	17,5	Normal	Debil	1
+D10	Lluvioso	Moderado	18,5	11,4	Normal	Debil	1
+D11	Soleado	Moderado	23,7	16,2	Normal	Fuerte	1
+D12	Nublado	Moderado	23,7	16,8	Alta	Fuerte	1
+D13	Nublado	Calido	21,4	16,1	Normal	Debil	1
+D14	Lluvioso	Moderado	17,1	12,8	Alta	Fuerte	0
