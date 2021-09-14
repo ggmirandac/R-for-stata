@@ -92,6 +92,36 @@ lista2$v
 ################################################################################
 # Working with data
 
-# First we import it
+# First look for its location, the file is in databases
+location<-paste(toString(getwd()),"/R-lab-codes/databases/",sep="")
 
-data <- read.table(".../R-lab-codes/databases/Tenis.txt")
+# Secondly we put the name of the file, in this case Tenis.txt
+
+file<-toString(paste(location,"Tenis.txt",sep=""))
+
+# Now we import the database using the import function
+tenis <- import(file)
+
+# To attach() function allows us to work directly with the data base
+# after running this line we can work with the data contained in every column
+# calling them by their names
+attach(tenis)
+
+# We can extract the names of the columns of a dataframe using the names() function
+
+names(tenis)
+
+# Using the str() function, unlike python that is used to create an string object
+# in R this function creates a descriptive statistinc of the database
+
+str(tenis)
+
+# When R read a database, the decimal comma is used as "." so when its reading a 
+# data base where this comma is "," we have to add the argument dec=",".
+
+tenis_with_comma=import(file,dec=",")
+
+# Now we can extract the different data col of a dataframe using as. function
+# With this we extract it as a factor vector
+as.factor(data$Juega_Tenis)
+
