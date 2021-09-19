@@ -138,7 +138,7 @@ apply(matrix3,2,mean,trim=0.1)
 # on the value of the arguments INDEX, by deffault is a factor of the dame lenght of X.
 # If FUN has more than one argument is passed in ...}
 
-edad <- 30:59
+edad <- 30:59f
 genero <- rep(c("F","M","NB"),10) ## This index is used to organize the information
 tapply(edad,genero,mean)
 
