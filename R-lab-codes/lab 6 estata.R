@@ -86,5 +86,5 @@ summarise(n=n(), minimo=min(rent), media=mean(rent),
 # Ejemplo:
 
 which(data$bath & data$kitchen)
-head(data$location %in%, c(bueno, alta,),n10)
+head(data$location %in% c(2, 3),n, rent=3082)
 
